@@ -6,9 +6,10 @@ public class CelsiusToFarenheit {
 		Scanner input = new Scanner(System.in);
 
 		// Taking input of temprature
-		System.out.println("Enter the temprature in celsius : ");				float celsius = input.nextFloat();
+		System.out.println("Enter the temprature in celsius : ");
+		float celsius = input.nextFloat();
 
-		// Converting to farenheit from celsius
+		// Converting to celsius to farenheit
 		float farenheit = (celsius * 9 / 5) + 32;
 
 		System.out.println("The " + celsius + " celsius is " + farenheit + " farenheit");
