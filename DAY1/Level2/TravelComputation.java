@@ -34,10 +34,13 @@ public class TravelComputation {
       	int totalTime = timeFromToVia + timeViaToFinalCity;
 
 
-      // Printing the travel details
-      System.out.println("The Total Distance travelled by " + name + " from " + 
+      	// Printing the travel details
+      	System.out.println("The Total Distance travelled by " + name + " from " + 
                          fromCity + " to " + toCity + " via " + viaCity +
                          " is " + totalDistance + " km and " +
                          "the Total Time taken is " + totalTime + " minutes");
+
+	// closing the scanner resource
+	input.close();
    }
 }
