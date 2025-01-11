@@ -15,7 +15,7 @@ public class SumOfNaturalNumber {
 		// Printing the result of the summation
 		System.out.println("Is both method getting the same summation?: " + (sumOfNaturalNumber == getSumOfNaturalNumber(number)));
 		
-		// Closing scanner resurce
+		// Closing scanner resource
 		input.close();
 	}
 	
