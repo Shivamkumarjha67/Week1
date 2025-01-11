@@ -9,7 +9,11 @@ public class SumOfNaturalNumber {
 		System.out.println("Enter the number: ");
 		int number = input.nextInt();
 		
+		// Using formulae
+		int sumOfNaturalNumber = number * (number + 1) / 2;
 		
+		// Printing the result of the summation
+		System.out.println("Is both method getting the same summation?: " + (sumOfNaturalNumber == getSumOfNaturalNumber(number)));
 		
 		// Closing scanner resurce
 		input.close();
@@ -17,6 +21,8 @@ public class SumOfNaturalNumber {
 	
 	// Method Declaration
 	private static int getSumOfNaturalNumber(int number) {
-		
+		if(number == 0) return 0;
+		// Recursive calls
+		return number + getSumOfNaturalNumber(number - 1);
 	}
 }
