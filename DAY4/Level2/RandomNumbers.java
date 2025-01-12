@@ -2,9 +2,6 @@ import java.util.Scanner;
 
 public class RandomNumbers {
     public static void main(String[] args) {
-		// Initializing the scanner object
-        Scanner input = new Scanner(System.in);
-
 		// Initializing the size of each digits
         int size = 4;
 		RandomNumbers obj = new RandomNumbers();
@@ -20,9 +17,6 @@ public class RandomNumbers {
 		double[] result = obj.findAverageMinMax(numbers);
 		
 		System.out.println("Average of numbers is: " + result[0] + "\nMinimum of numbers is: " + result[1] + "\nMaximum of numbers is: " + result[2]);
-
-		// Closing the scanner resource
-        input.close();
     }
 	
 	// Method declarations
