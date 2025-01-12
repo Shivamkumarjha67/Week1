@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class RandomNumbers {
     public static void main(String[] args) {
 		// Initializing the size of each digits
